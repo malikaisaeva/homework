@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header .text {
+   display: flex;
+   gap: 20px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+.main {
+    padding-top:15px;
+}
+
+.main .container {
+    max-width: 1160px;
+    height: 504px;
+    left: 0%;
+    right: 0%;
+    color: white;
+    padding-top: 40px;
+    background-image: url(../img/comp-one.png) ;
+}
+
+.first {
+     text-align: center;
+     align-items: center;
+     font-style: normal;
+}
+
+.first h1 {
+    font-weight: 400;
+    font-size: 43px;
+    padding-top: 200px ;
+}
+
+.first h6 {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+.first h5 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+.second {
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.second h1 {
+    font-weight: 400;
+    font-size: 43px;
+}
+
+.second h6 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 23px;
+    color: #A0A0A0;
+}
+
+.second h5 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 26px;
+}
+
+.picture .container {
+    max-width: 1160px;
+
+}
+
+.third {
+    display: flex;
+    gap: 25px;
+    padding-top: 80px;
+}
+
+.picture .container .text {
+    display: flex;
+    padding-top: 45px;
+    gap: 230px;
+}
+
+.picture .container .text h3 {
+    padding-left: 230px;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.picture .container .text-one {
+    display: flex;
+    padding-top: 23px;
+    gap: 550px;
+    padding-left: 250px;
+}
+
+.picture .container .text-one h6 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.gallery .container {
+    max-width: 1160px;
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.fourth h3 {
+    font-weight: 400;
+    font-size: 33px;
+
+}
+
+.fourth h6 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #A0A0A0;
+}
+
+.gallery-one .container {
+    max-width: 1160px;
+    
+}
+
+.gallery-one .container .fifth {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.summa {
+    display: flex;
+    gap: 200px;
+    padding-left:15px;
+    padding-top: 10px;
+    color: #A0A0A0;
+}
+
+.main-three .container {
+    max-width: 1160px;
+}
+
+.seventh {
+    overflow: hidden;
+    position: relative;
+    padding-top:15%;
+    height: 100%;
+}
+
+.video_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.text-two {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 550px;
+    z-index: 4;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text-two h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+
+.text-two h6 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 10px;
+    color: white;
+}
+
+.text-two h5 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 10px;
+    color: white;
+}
